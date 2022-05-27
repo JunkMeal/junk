@@ -5,7 +5,7 @@ type responseType = "stream" | "json" | "normal"
 
 interface JunkOptions {
     url: string,
-    method: string,
+    method?: string,
     data?: string,
     headers?: http.OutgoingHttpHeaders,
     responseType?: responseType
