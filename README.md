@@ -1,2 +1,2 @@
 # junk
-My https client for node
+My simple wrapper around http & https node modules

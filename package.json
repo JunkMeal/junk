@@ -1,0 +1,27 @@
+{
+  "name": "junk",
+  "version": "0.0.1",
+  "description": "My https client for node",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "exports": {
+    "default": "./build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JunkMeal/junk.git"
+  },
+  "keywords": [],
+  "author": "JunkMeal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JunkMeal/junk/issues"
+  },
+  "homepage": "https://github.com/JunkMeal/junk#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.35"
+  },
+  "type": "module"
+}
